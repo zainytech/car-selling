@@ -1,0 +1,86 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    width: 90.5%;
+    height: 5rem; 
+    position: fixed;
+    top: 0;
+    z-index: 10000;  
+    background-color: 151515;
+    overflow: hidden;
+}
+.header2{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.colorBlue{
+    background-color: #f30112;
+    color: white;
+}
+.colorBlue .header{
+    background-image: none;
+}
+.colorBlue .header1 a{
+    color: white;
+}
+.colorBlue .header2{
+    color: white;
+}
+.header2 img{
+    width: 4rem;
+}
+.header1{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.header-resp{
+    display: flex;
+    align-items: center;
+}
+.header1 .fa-bars{
+    font-size: 1.6rem;
+    display: none;
+}
+.header1 .fa-xmark{
+    font-size: 1.8rem;
+}
+.header1 a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 920px) {
+    .header{
+        padding: 0 1rem;
+        position: relative;
+    }
+    .header1 a{
+       display: none;
+    } 
+    .header1 .fa-solid{
+        font-size: 1.6rem;
+        display: block;
+     }
+     .header img{
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .header{
+        padding: 0 1rem;    
+    }
+    .header img{
+        width: 4rem;
+    }
+}
+

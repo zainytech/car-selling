@@ -1,0 +1,171 @@
+.showrom{
+    color: white;
+    margin: 6rem 0;
+    width: 100%;
+    overflow: hidden;
+}
+.showdetail{
+    display: grid;
+    place-items: center;
+    gap: 1.6rem;
+    padding: 0 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+.showdetail::before{
+    content: '';
+    background-image: url('../Assets/carbg7.jpg');
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: .2;
+ }
+.showmain{
+    width: 98%;
+    height: max-content;
+    border: 1px solid red;
+    box-shadow: 0 4px 4px 2px rgba(231, 231, 231, 0.1);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4rem;
+    position: relative;
+}
+.showmain img{
+    width: 100%;
+}
+.showmain .showp1{
+    padding: .1rem 1rem;
+    text-align: center;
+    font-size: 15px;
+}
+.showmain .showp2{
+    text-align: center;
+    margin-top: -.5rem;
+    font-size: 15px;
+}
+.showmain .main-btn{
+    outline: none;
+    border: none;
+    padding: .7rem 0;
+    font-weight: 600;
+    margin: .4rem 0;
+}
+.showfilter{
+    background-color: #f30112;
+    height: 24vh;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.showfilter1{
+    width: 25rem;
+    height: 3rem;
+    border: 2px solid white;
+    margin: 0 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 600;
+}
+.showfilter-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0 4rem;
+}
+.showfilter-div1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.showfilter2{
+    display: flex;
+    gap: 1rem;
+    width: 16rem;
+    height: 3rem;
+    padding: 0 .3rem;
+    font-weight: 600;
+    font-size: 14px;
+    /* border-radius: 1rem; */
+    outline: none;
+    border: none;
+}
+.show{
+    width: 15rem;
+    height: 3rem;
+    /* border-radius: 1rem; */
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+}
+.show:hover{
+    background-image: url('../Assets/carbg7.jpg');
+    background-position: center;
+    color: white;
+}
+.show-flex{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+.show-flex .main-btn:hover{
+    background-image: url('../Assets/carbg7.jpg');
+}
+@media screen and (max-width: 920px){
+    .showrom{
+        margin: 4rem 0;
+    }
+    .showfilter{
+        height: max-content;
+        padding: 2rem 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .showfilter1{
+        width: 92%;
+        text-align: center;
+        padding: 0 .2rem;
+        height: 3rem;
+        margin: 0 0rem;
+        font-size: 16px;
+    }
+    .showfilter-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        gap: 1rem;
+        padding: 0 0rem;
+    }
+    .showfilter-div1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    .showdetail{
+        display: grid;
+        place-items: center;
+        gap: 1.6rem;
+        padding: 0 2rem;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+    }
+}
+@media screen and (max-width: 680px){
+    .showdetail{
+        gap: 1rem;
+        padding: 0 .4rem;
+        grid-template-columns: 1fr;
+    }
+}

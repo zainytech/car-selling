@@ -1,0 +1,112 @@
+
+[
+   {
+      "id": 1,
+      "titile": "BMW 7 SERIES",
+      "icon": "images/show1.jpg",
+      "detail": "SALOON 3.0 740LI EXCLUSIVE AUTO EURO 6 (S/S) 4DR (2017/17)",
+      "des": "2,998CC | AUTO | 99,570 | MILESPETROL",
+      "price": 24490,
+      "category": "BMW"
+   },
+   {
+        "id": 2,
+        "titile": "BMW X5",
+        "icon": "images/show2.jpg",
+        "detail": "4X4 3.0 30D M SPORT AUTO XDRIVE EURO 6 (S/S) 5DR (2013/63)",
+        "des": "2,993CC | AUTO | 96,345 | MILESDIESEL",
+        "price": 19490,
+        "category": "BMW"
+   },
+   {
+        "id": 3,
+        "titile": "MERCEDES-BENZ",
+        "icon": "images/show3.jpg",
+        "detail": "4X4 2.1 ML250 BLUETEC AMG LINE G-TRONIC 4WD EURO 6 (S/S) 5DR (2015/15)",
+        "des": "2,143CC | AUTO | 80,455 | MILESDIESEL",
+        "price": 17999,
+        "category": "MERCEDES"
+
+   },
+   {
+        "id": 4,
+        "titile": "BMW 6 SERIES GRAN COUPE",
+        "icon": "images/show4.jpg",
+        "detail": "SALOON 3.0 740LI EXCLUSIVE AUTO EURO 6 (S/S) 4DR (2017/17)",
+        "des": "2,993CC | AUTO | 66,950 | MILESDIESEL",
+        "price": 17500,
+        "category": "BMW"
+   },
+   {
+        "id": 5,
+        "titile": "BMW 5 SERIES",
+        "icon": "images/show5.jpg",
+        "detail": "SALOON 3.0 740LI EXCLUSIVE AUTO EURO 6 (S/S) 4DR (2017/17)",
+        "des": "2,993CC | AUTO | 68,160 | MILESDIESEL",
+        "price": 16290,
+        "category": "BMW"
+   },
+   {
+        "id": 6,
+        "titile": "AUDI A7",
+        "icon": "images/show6.jpg",
+        "detail": "HATCHBACK 3.0 TDI V6 SE EXECUTIVE SPORTBACK S TRONIC QUATTRO EURO 6 (S/S) 5DR (2014/64)",
+        "des": "2,967CC | AUTO | 67,428 | MILESDIESEL",
+        "price": 15999,
+        "category": "AUDI"
+   },
+   {
+          "id": 7,
+          "titile": "MERCEDES-BENZ GLA CLASS",
+          "icon": "images/show7.jpg",
+          "detail": "4X4 2.1 GLA220 CDI AMG LINE 7G-DCT 4MATIC EURO 6 (S/S) 5DR (2014/14)",
+          "des": "2,143CC | AUTO | 45,156 | MILESDIESEL",
+          "price": 15790,
+          "category": "MERCEDES"
+     },
+     {
+          "id": 8,
+          "titile": "PEUGEOT 508",
+          "icon": "images/show8.jpg",
+          "detail": "HATCHBACK 1.5 BLUEHDI GT LINE FASTBACK EAT EURO 6 (S/S) 5DR (2019/68)",
+          "des": "1,499CC | AUTO | 92,104 | MILESDIESEL",
+          "price": 14290,
+          "category": "AUDI"
+     },
+     {
+          "id": 9,
+          "titile": "LEXUS CT 200H",
+          "icon": "images/show9.jpg",
+          "detail": "HATCHBACK 1.8 F SPORT CVT EURO 6 (S/S) 5DR (2016/66)",
+          "des": "1,786CC | AUTO | 94,104 | MILESDIESEL",
+          "price": 13999,
+          "category": "LEXUS"
+     },
+     {
+          "id": 10,
+          "titile": "LEXUS IS 200",
+          "icon": "images/show10.jpg",
+          "detail": "HATCHBACK 1.8 F SPORT CVT EURO 6 (S/S) 5DR (2016/66)",
+          "des": "1,786CC | AUTO | 94,104 | MILESDIESEL",
+          "price": 12999,
+          "category": "LEXUS"
+     },
+     {
+          "id": 11,
+          "titile": "AUDI A6",
+          "icon": "images/show11.jpg",
+          "detail": "HATCHBACK 1.8 F SPORT CVT EURO 6 (S/S) 5DR (2016/66)",
+          "des": "1,786CC | AUTO | 94,104 | MILESDIESEL",
+          "price": 12685,
+          "category": "AUDI"
+     },
+     {
+          "id": 12,
+          "titile": "BMW 3 SERIES",
+          "icon": "images/show12.jpg",
+          "detail": "HATCHBACK 1.8 F SPORT CVT EURO 6 (S/S) 5DR (2016/66)",
+          "des": "1,786CC | AUTO | 94,104 | MILESDIESEL",
+          "price": 12999,
+          "category": "BMW"
+     }
+]
